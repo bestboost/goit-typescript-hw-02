@@ -12,6 +12,6 @@ enum Day {
   Sun = "Weekend",
 }
 
-function isWeekend(): boolean {
+function isWeekend(Day): boolean {
   return Day.Fri === "Weekdays";
 }
