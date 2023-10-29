@@ -5,10 +5,10 @@ type Page = {
   title: string;
   likes: number;
   accounts: string[];
-  status: string;
+  status: "open" | "close";
   details?: {
-    createAt: { Date: string };
-    updateAt: { Date: string };
+    createAt: Date;
+    updateAt: Date;
   };
 };
 
